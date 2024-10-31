@@ -1,0 +1,29 @@
+body{
+    padding: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: [col-start] 200px [line 1] 200px [line 2] 200px [line 3] 200px [line 4] 200px [line 5] 200px [col-end];
+    grid-template-rows: [top-line] 100px [middle-libe] auto [bottom-line];
+    column-gap: 10px;
+}
+
+#heading{
+    background-color: black;
+    color: white;
+    font-family: arial, Helvetica, Calibri;
+    grid-column-start: col-start;
+    grid-column-end: span col-end;
+    grid-row-start: top-line;
+    grid-row-end: middle-line;
+}
+
+#bizel{
+
+}
+
+#bio{
+
+}
+

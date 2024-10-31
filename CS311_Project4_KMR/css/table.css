@@ -1,0 +1,15 @@
+body {
+    padding: 20px;
+
+}
+
+.composer{
+    font-family:Arial, Helvetica, Calibri;
+    padding-left: 10px;
+    color:black;
+}
+
+#composer{
+    background-color:coral;
+    float:left;
+}

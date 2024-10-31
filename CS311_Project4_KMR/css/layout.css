@@ -1,0 +1,14 @@
+body {
+    padding: 20px;
+}
+
+.composer{
+    font-family:Arial, Helvetica, Calibri;
+    padding-left: 10px;
+    color:black;
+}
+
+.image{
+    background-color:coral;
+    float:left;
+}
